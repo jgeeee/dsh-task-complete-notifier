@@ -6,6 +6,8 @@ A client plugin for [DeepSeek Harness](https://github.com/deepseek-ai): whenever
 
 ![A system notification from the plugin](docs/preview.png)
 
+<sub>First line is the app name Windows shows; the title is the state, the body is the session name.</sub>
+
 ## Behavior
 
 | Moment | Notification title | Body |
