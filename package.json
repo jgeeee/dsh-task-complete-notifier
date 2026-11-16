@@ -1,0 +1,52 @@
+{
+  "name": "@local/task-complete-notifier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bottom-right system notification whenever a task finishes or asks for you",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-session",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanne_ge/dsh-task-complete-notifier.git"
+  },
+  "homepage": "https://github.com/joanne_ge/dsh-task-complete-notifier#readme",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "notification",
+    "desktop-notification"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.3 <0.3.0"
+  }
+}

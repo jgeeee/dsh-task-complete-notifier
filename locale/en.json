@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Task finished notifications",
+    "description": "Raises a system notification whenever a run ends or a session waits for your answer or approval.",
+    "detail": "docs/DETAIL.md"
+  }
+}

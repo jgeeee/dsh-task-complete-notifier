@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "任务完成通知",
+    "description": "每轮任务结束、向你提问或等待确认时，在系统通知区域（Windows 屏幕右下角）弹出一条系统通知。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}
