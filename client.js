@@ -8,7 +8,7 @@
  * system already plays for it.
  */
 window.__ModuleLoader__.load({
-  id: '@local/task-complete-notifier',
+  id: '@jgeeee/dsh-task-complete-notifier',
   factory(require) {
     const React = require('react')
     const NS = 'task-complete-notifier'

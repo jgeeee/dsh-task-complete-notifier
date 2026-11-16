@@ -19,19 +19,19 @@
 
 ## 安装
 
-需要 DeepSeek Harness 0.2.2-rc.3（桌面版）。本插件是一个 Cordis bundle。
+需要 DeepSeek Harness 0.2.2-rc.3（桌面版）。本插件是一个 Cordis bundle，从 npm 安装：
+
+```text
+plugin_manager → action: install_bundle → target: @jgeeee/dsh-task-complete-notifier@1.0.0
+```
+
+改插件源码开发时，也可以直接指向本目录（以 `link:` 方式装入 profile，改完刷新即加载新代码）：
 
 ```text
 plugin_manager → action: install_bundle → target: <本目录的绝对路径>
 ```
 
-或以已发布的包名安装（发布后）：
-
-```text
-plugin_manager → action: install_bundle → target: @<scope>/dsh-task-complete-notifier@1.0.0
-```
-
-安装后刷新页面即可生效（本包以 `link:` 方式装入 profile，改源码后刷新即加载新代码）。
+安装后刷新页面即可生效。
 
 ## 实现说明
 

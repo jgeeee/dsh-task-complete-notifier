@@ -1,7 +1,6 @@
 {
-  "name": "@local/task-complete-notifier",
+  "name": "@jgeeee/dsh-task-complete-notifier",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "description": "Bottom-right system notification whenever a task finishes or asks for you",
   "exports": {
@@ -50,5 +49,8 @@
   ],
   "engines": {
     "dsh": ">=0.2.2-rc.3 <0.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

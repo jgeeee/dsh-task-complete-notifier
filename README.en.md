@@ -19,19 +19,19 @@ A client plugin for [DeepSeek Harness](https://github.com/deepseek-ai): whenever
 
 ## Install
 
-Requires DeepSeek Harness 0.2.2-rc.3 (desktop build). The plugin is a Cordis bundle.
+Requires DeepSeek Harness 0.2.2-rc.3 (desktop build). The plugin is a Cordis bundle, installed from npm:
+
+```text
+plugin_manager → action: install_bundle → target: @jgeeee/dsh-task-complete-notifier@1.0.0
+```
+
+When developing the plugin itself you can also point at this directory (it is linked into the profile, so edits are picked up on the next refresh):
 
 ```text
 plugin_manager → action: install_bundle → target: <absolute path to this directory>
 ```
 
-Or install by published package name (after publishing):
-
-```text
-plugin_manager → action: install_bundle → target: @<scope>/dsh-task-complete-notifier@1.0.0
-```
-
-Refresh the page after installing (the package is linked into the profile, so edits to the source are picked up on the next refresh).
+Refresh the page after installing.
 
 ## How it works
 

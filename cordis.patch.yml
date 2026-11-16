@@ -1,3 +1,3 @@
 - insert:
     - id: task-complete-notifier
-      name: '@local/task-complete-notifier'
+      name: '@jgeeee/dsh-task-complete-notifier'
