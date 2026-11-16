@@ -4,6 +4,8 @@
 
 [DeepSeek Harness](https://github.com/deepseek-ai) 的客户端插件：每当一轮任务结束、会话向你提问、或等待你确认时，在**系统通知区域**（Windows 屏幕右下角）弹出一条通知。页面内不画任何东西，声音使用操作系统自带的提示音。
 
+![系统通知示例](docs/preview.png)
+
 ## 行为
 
 | 时刻 | 通知标题 | 正文 |

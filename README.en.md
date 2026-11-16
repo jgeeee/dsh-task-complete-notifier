@@ -4,6 +4,8 @@ English | [简体中文](README.md)
 
 A client plugin for [DeepSeek Harness](https://github.com/deepseek-ai): whenever a run ends, a session asks you a question, or waits for your approval, it raises an **operating-system notification** (bottom-right of the screen on Windows). Nothing is drawn inside the page; the notification keeps the system's own sound.
 
+![A system notification from the plugin](docs/preview.png)
+
 ## Behavior
 
 | Moment | Notification title | Body |
