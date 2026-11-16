@@ -37,9 +37,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joanne_ge/dsh-task-complete-notifier.git"
+    "url": "git+https://github.com/jgeeee/dsh-task-complete-notifier.git"
   },
-  "homepage": "https://github.com/joanne_ge/dsh-task-complete-notifier#readme",
+  "homepage": "https://github.com/jgeeee/dsh-task-complete-notifier#readme",
   "keywords": [
     "dsh-plugin",
     "deepseek-harness",
